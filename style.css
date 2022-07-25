@@ -36,8 +36,7 @@ nav{
 	float:left;
 	text-align:center;
 	align-items:center;
-	display:flex
-	;
+	display:flex;
 }
 header nav ul{
 	list-style:none;
@@ -73,27 +72,29 @@ header nav ul li a:hover{
 }
 header .profile-wrapper{
 	width:14.5%;
-	float:left;
 	text-align:right;
 	padding-top:10px;
 	padding-bottom:10px;
-	padding-right:1.5px;
+	float:left;
 	
 }
 header .profile-wrapper a{
 	text-decoration:none;
 	border-radius:10px;
 	background-color:white;
+	font-weight:bold;
+	padding-right:;
+	padding-left:;
 	color:black;
-	padding:7px;
+	padding:6px;
+	width:100%;
 }
 header .profile-wrapper a:hover{
 	border-color:white;
 	background-color:#E3E3E3;
 }
 .headbanner{
-    padding:10px;
-	padding-top:50px;
+      padding-top:7px;
 	  width:100%;
 }
 .headbanner .mypic{
@@ -106,15 +107,15 @@ header .profile-wrapper a:hover{
 
 .headbanner .myquote{
 	float:right;
-	justify-content:right;
+	justify-content:left;
 	width:65%;
 	background-color:black;
 	color:white;
 	font-size:5vw;
-	padding:20px;
-	border-top-left-radius:25px;
-	border-bottom-left-radius:25px;
-	display:flex;
+	padding:1vw;
+	border-top-left-radius:2.5vw;
+	border-bottom-left-radius:2.5vw;
+	display:grid;
 	align-content:right;
 }
 .headbanner .myquote .txt{
@@ -163,27 +164,27 @@ float:left;
 
 .socialicons{
 	text-align:center;
-	padding:10px;
+	padding:1vw;
+	width:100%;
 }
 .fa {
-  padding: 20px;
-  font-size: 70px;
-  width: 30px;
+  padding:10px;
+  width: 2vw;
   text-align: center;
+  justify-content:center;
   text-decoration: none;
-  border-radius: 50%;
-  color:white;
-  background-color:black;
+  color:black;
+}
+.fa a{
 }
 .fa:hover {
-  border: solid black;
   background:white;
   color:black;
 }
 .about{
 	width:100%;
 	text-align:center;
-	font-size:30px;
+	font-size:5.5vw;
 	margin:15px auto;
 	background-color:black;
 	color:white;
@@ -196,7 +197,7 @@ float:left;
 }
 .about .aboutbody{
 	width:90%;
-	font-size:25px;
+	font-size:3.5vw;
 	padding:30px;
 	padding-bottom:60px;
 }
@@ -296,7 +297,7 @@ footer a{
 @media screen and (max-width: 1140px){
 	
 	header h1{
-		width:50%;
+		width:59%;
 		float:left;
 		text-align:center;
 		
@@ -308,7 +309,7 @@ footer a{
     }
 	header .nav-icon{
 		display:block;
-		width:25%;
+		width:18%;
 		text-align:center;
 		float:left;
 		align-content:center;
@@ -316,16 +317,17 @@ footer a{
 	
 	header .nav-icon button{
 		padding-left:6px;
+		padding-top:2px;
 		border:none;
-		text-align:left;
+		text-align:center;
 		background-color:transparent;
 		color:white;
 	}
 	header .nav-icon button div{
-		border:2px;
+		border:1px;
 		background-color:white;
-		width: 32px;
-		height:5px;
+		width: 31px;
+		height:4px;
 		margin: 5px 0;
 		border-radius:5px;
 	}
@@ -383,13 +385,64 @@ footer a{
 	    background-color:white;
     }
 	header .profile-wrapper{
-	    width:24%;
-	    float:left;
+	    width:18%;
+	    float:right;
 	    text-align:right;
 	    padding-top:10px;
 	    padding-bottom:10px;
+		padding-right:7px;
 	
 }
+
+header .profile-wrapper a{
+	text-decoration:none;
+	font-size:14px;
+	border-radius:10px;
+	background-color:white;
+	font-weight:bold;
+	color:black;
+	padding:6px;
+}
+header .profile-wrapper a:hover{
+	border-color:white;
+	background-color:#E3E3E3;
+}
+
+.headbanner .myquote{
+	float:right;
+	justify-content:left;
+	width:65%;
+	background-color:black;
+	color:white;
+	font-size:6vw;
+	padding:1vw;
+	border-top-left-radius:2.5vw;
+	border-bottom-left-radius:2.5vw;
+	display:grid;
+	align-content:right;
+}
+
+.about{
+	width:100%;
+	text-align:center;
+	font-size:5.5vw;
+	margin:15px auto;
+	background-color:black;
+	color:white;
+	
+}
+.about .aboutheader{
+	padding:10px;
+	padding-top:35px;
+	text-align:center;
+}
+.about .aboutbody{
+	width:90%;
+	font-size:3.5vw;
+	padding:30px;
+	padding-bottom:60px;
+}
+
 
 }
 
