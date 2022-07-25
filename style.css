@@ -164,18 +164,20 @@ float:left;
 
 .socialicons{
 	text-align:center;
-	padding:1vw;
+	padding:2vw;
 	width:100%;
 }
 .fa {
-  padding:10px;
-  width: 2vw;
+  padding:15px;
+  width: 20px;
+  height:20px;
   text-align: center;
   justify-content:center;
+  align-content:center;
   text-decoration: none;
-  color:black;
-}
-.fa a{
+  color:white;
+  background-color:black;
+  border-radius:50%;
 }
 .fa:hover {
   background:white;
@@ -184,22 +186,20 @@ float:left;
 .about{
 	width:100%;
 	text-align:center;
-	font-size:5.5vw;
-	margin:15px auto;
 	background-color:black;
 	color:white;
-	
+	padding:;
 }
 .about .aboutheader{
 	padding:10px;
-	padding-top:35px;
 	text-align:center;
+	font-size:3vw;
 }
 .about .aboutbody{
 	width:90%;
-	font-size:3.5vw;
-	padding:30px;
-	padding-bottom:60px;
+	padding:10px;
+	padding-bottom:25px;
+	font-size:20px;
 }
 .educations{
 	width:70%;
@@ -332,7 +332,7 @@ footer a{
 		border-radius:5px;
 	}
 	header nav{
-	    width:30%;
+	    width:35%;
 	    float:left;
 	    position:fixed;
 		left:0;
@@ -425,22 +425,19 @@ header .profile-wrapper a:hover{
 .about{
 	width:100%;
 	text-align:center;
-	font-size:5.5vw;
-	margin:15px auto;
 	background-color:black;
 	color:white;
 	
 }
 .about .aboutheader{
-	padding:10px;
-	padding-top:35px;
+	font-size:5vw;
 	text-align:center;
 }
 .about .aboutbody{
 	width:90%;
+	padding:10px;
+	padding-bottom:25px;
 	font-size:3.5vw;
-	padding:30px;
-	padding-bottom:60px;
 }
 
 
