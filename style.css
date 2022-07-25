@@ -110,7 +110,7 @@ header .profile-wrapper a:hover{
 	width:65%;
 	background-color:black;
 	color:white;
-	font-size:60px;
+	font-size:5vw;
 	padding:20px;
 	border-top-left-radius:25px;
 	border-bottom-left-radius:25px;
@@ -387,5 +387,86 @@ footer a{
 	    padding-bottom:10px;
 	
 }
-	
+
+}
+
+
+@media screen and (max-width: 600px){
+
+
+.headbanner{
+    padding:10px;
+	padding-top:50px;
+	  width:100%;
+	  
+}
+.headbanner .mypic{
+	float:left;
+	width:30%;
+	justify-content:center;
+	text-align:center;
+	align-content:center;
+}
+
+.headbanner .myquote{
+	float:right;
+	justify-content:right;
+	width:65%;
+	background-color:black;
+	color:white;
+	font-size:5vw;
+	padding:20px;
+	border-top-left-radius:25px;
+	border-bottom-left-radius:25px;
+	display:flex;
+	align-content:right;
+}
+.headbanner .myquote .txt{
+	padding:5px;
+	display:inline-block;
+	float:left;
+	  justify-content:left;
+
+}
+.headbanner .myquote .txt1{
+float:left;
+  justify-content:left;
+
+}
+.headbanner .myquote .txt2{
+float:left;
+  justify-content:left;
+
+}
+.headbanner .myquote .textcontainer{
+  display:inline-block;
+  justify-content:left;
+  float:left;
+}
+.headbanner .myquote .textcontainer .txt3{
+  overflow: hidden;
+  white-space: nowrap; 
+  margin: 0 auto; 
+  animation: 
+  typing 4s steps(50,end);
+  text-align:left;
+  float:left;
+  color:white;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+
+
+
+
 }
