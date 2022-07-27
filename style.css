@@ -179,6 +179,9 @@ float:left;
   background:white;
   color:black;
 }
+.nxtbtn{
+	width:100%;
+}
 .aboutpage{
 	height:100vh;
 	display:flex;
@@ -227,13 +230,19 @@ float:left;
 	font-size:23px;
 	box-shadow: 0 0 25px 0 black; 
 }
+.skillspage{
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
 .skills{
 	width:50%;
 	padding-top:10px;
 	padding-bottom:10px;
 	padding-bottom:20px;
 	margin:50px auto;
-	height:100vh;
 }
 .skills .skill{
 	text-align:center;
@@ -277,7 +286,6 @@ float:left;
 	float:left;
 	border-radius:5px;
 }
-
 footer{
 text-align:center;
 width:100%;
