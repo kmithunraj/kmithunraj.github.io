@@ -202,15 +202,19 @@ float:left;
 	width:90%;
 	font-size:20px;
 }
+.educationpage{
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
 .educations{
 	width:70%;
 	padding:20px;
-
 }
 .educations .education{
 	text-align:center;
 	font-size:30px;
-	padding:15px;
 }
 .educations .edu{
 	width:80%;
@@ -218,8 +222,8 @@ float:left;
 	background-color:black;
 	color:white;
 	padding:20px;
+	margin:50px auto;
 	border-radius:10px;
-	margin:40px auto;
 	font-size:23px;
 	box-shadow: 0 0 25px 0 black; 
 }
@@ -442,7 +446,34 @@ header .profile-wrapper a:hover{
 	padding:10px;
 	font-size:17px;
 }
-
+.educationpage{
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.educations{
+	width:90%;
+	padding:20px;
+}
+.educations .education{
+	text-align:center;
+	font-size:30px;
+}
+.educations .edu{
+	width:90%;
+	text-align:left;
+	background-color:black;
+	color:white;
+	padding:20px;
+	margin:50px auto;
+	border-radius:10px;
+	font-size:20px;
+	box-shadow: 0 0 25px 0 black; 
+}
+.educations.edu .degree{
+	font-size:10px;
+}
 
 }
 
@@ -461,6 +492,35 @@ header .profile-wrapper a:hover{
 	border-bottom-left-radius:2.5vw;
 	display:grid;
 	align-content:right;
+}
+
+.educationpage{
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.educations{
+	width:90%;
+	padding:20px;
+}
+.educations .education{
+	text-align:center;
+	font-size:30px;
+}
+.educations .edu{
+	width:90%;
+	text-align:left;
+	background-color:black;
+	color:white;
+	padding:20px;
+	margin:50px auto;
+	border-radius:10px;
+	font-size:15px;
+	box-shadow: 0 0 25px 0 black; 
+}
+.educations.edu .degree{
+	font-size:15px;
 }
 	
 }
