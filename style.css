@@ -198,6 +198,8 @@ float:left;
 .nxtbtn .nxtbtnblack a{
 	text-decoration:none;
 	color:white;
+	font-size:20px;
+
 }
 .nxtbtn{
 	width:100%;
@@ -216,6 +218,7 @@ float:left;
 .nxtbtn .nxtbtnwhite a{
 	text-decoration:none;
 	color:black;
+	font-size:20px;
 }
 .aboutpage{
 	height:100vh;
