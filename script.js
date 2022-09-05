@@ -101,3 +101,45 @@ function navbtn() {
       }
     }
   }
+
+
+  function skills() {
+    if (document.getElementById("achievements") !== undefined) {
+      if (document.getElementById("achievements").style.display = "none") {
+        document.getElementById("home").style.display = "none";
+        document.getElementById("about").style.display = "none";
+        document.getElementById("education").style.display = "none";
+        document.getElementById("achievements").style.display = "none";
+        document.getElementById("skills").style.display = "none";
+        document.getElementById("contact").style.display = "block";
+      } else {
+        document.getElementById("home").style.display = "none";
+        document.getElementById("about").style.display = "none";
+        document.getElementById("education").style.display = "none";
+        document.getElementById("achievements").style.display = "none";
+        document.getElementById("skills").style.display = "none";
+        document.getElementById("contact").style.display = "none";
+      }
+    }
+  }
+
+
+  function contact() {
+    if (document.getElementById("achievements") !== undefined) {
+      if (document.getElementById("achievements").style.display = "none") {
+        document.getElementById("home").style.display = "none";
+        document.getElementById("about").style.display = "none";
+        document.getElementById("education").style.display = "none";
+        document.getElementById("achievements").style.display = "none";
+        document.getElementById("skills").style.display = "none";
+        document.getElementById("contact").style.display = "block";
+      } else {
+        document.getElementById("home").style.display = "none";
+        document.getElementById("about").style.display = "none";
+        document.getElementById("education").style.display = "none";
+        document.getElementById("achievements").style.display = "none";
+        document.getElementById("skills").style.display = "none";
+        document.getElementById("contact").style.display = "none";
+      }
+    }
+  }
